@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&fontColor=7d12ff&height=300&section=header&text=티끌%20모의%20태산&fontSize=90) 
+![header](https://capsule-render.vercel.app/api?type=venom&color=0:feac5e,50:c779d0,100:4bc0c8&fontColor=7d12ff&height=300&section=header&text=티끌%20모의%20태산&fontSize=90) 
 
 
 # 프로젝트 소개 📢
