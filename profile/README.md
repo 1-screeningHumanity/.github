@@ -45,9 +45,9 @@
          
    </tr>
    <tr>
-     <td colspan="2" align="center">메인페이지</td>
-     <td align="center">로딩페이지</td>
-     <td align="center">not-found 페이지</td>
+     <td colspan="2" align="center">메인</td>
+     <td align="center">Loading</td>
+     <td align="center">not-found</td>
    </tr>
  </table>
  <table>
