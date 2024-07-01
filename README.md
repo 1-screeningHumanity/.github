@@ -185,7 +185,7 @@
 | :----: | :----: |
 | 오승원 | 이지민 |
 | FrontEnd| FrontEnd|
-|sw4689@gmail.com|l68774842@gmail.com|
+|sw4689@gmail.com|lee@jiming.kr|
 |[@sw-devr](https://github.com/sw-devr)| [@jmlee119](https://github.com/jmlee119) |
 | (후기를 입력하세용) | (후기를 입력하세용) |
 
