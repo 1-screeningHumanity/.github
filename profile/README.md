@@ -58,9 +58,9 @@
          
    </tr>
    <tr>
-     <td align="center">로그인페이지</td>
-     <td align="center">회원가입페이지</td>
-     <td align="center">비밀번호찾기페이지</td>
+     <td align="center">로그인</td>
+     <td align="center">회원가입</td>
+     <td align="center">비밀번호찾기</td>
    </tr>
  </table>
  <table>
@@ -81,9 +81,9 @@
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/267ba66a-3560-48c0-ac6e-c3359c16d4e1" alt="급등/급락주페이지"/>
    </tr>
    <tr>
-     <td colspan="2" align="center">검색페이지</td>
-     <td align="center">알림페이지</td>
-     <td align="center">급등/급락주페이지</td>
+     <td colspan="2" align="center">검색</td>
+     <td align="center">알림</td>
+     <td align="center">급등/급락주</td>
    </tr>
  </table>
  <table>
@@ -94,7 +94,7 @@
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/0708d619-b6cf-4319-af79-fd032c43cbe7" alt="카테고리3"/>
    </tr>
    <tr>
-     <td colspan="4" align="center">종목 상세페이지</td>
+     <td colspan="4" align="center">종목 상세</td>
    </tr>
  </table>
  <table>
@@ -105,7 +105,7 @@
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/d0bc324a-3796-472e-bd0e-3e49293b93b2" alt="마이페이지2"/>
    </tr>
    <tr>
-     <td colspan="2" align="center">랭킹페이지</td>
+     <td colspan="2" align="center">랭킹</td>
      <td colspan="2" align="center">마이페이지</td>
    </tr>
  </table>
@@ -118,7 +118,7 @@
    <tr>
      <td  align="center">타인프로필(구독전)</td>
      <td  align="center">타인프로필(구독후)</td>
-     <td  align="center">구독하기페이지</td>
+     <td  align="center">구독하기</td>
    </tr>
  </table>
  <table>
@@ -129,10 +129,10 @@
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/ac1ec3fc-d8fb-4731-92dc-771fdbd95db4" alt="나를구독한사람목록페이지"/>
    </tr>
    <tr>
-     <td align="center">매수/매도목록페이지</td>
-     <td align="center">예약매수/매도목록페이지</td>
-     <td align="center">구독자목록페이지</td>
-     <td align="center">나를구독한사람목록페이지</td>
+     <td align="center">매수/매도목록</td>
+     <td align="center">예약매수/매도목록</td>
+     <td align="center">구독자목록</td>
+     <td align="center">나를구독한사람목록</td>
    </tr>
  </table>
  <table>
@@ -143,10 +143,10 @@
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/c271c92f-b2b3-4adf-90fd-0aee16472203" alt="비밀번호변경완료페이지"/>
    </tr>
    <tr>
-     <td align="center">즐겨찾기목록페이지</td>
-     <td align="center">결제내역페이지</td>
-     <td align="center">비밀번호변경페이지</td>
-     <td align="center">비밀번호변경완료페이지</td>
+     <td align="center">즐겨찾기목록</td>
+     <td align="center">결제내역</td>
+     <td align="center">비밀번호변경</td>
+     <td align="center">비밀번호변경완료</td>
    </tr>
  </table>
  <table>
@@ -157,10 +157,10 @@
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/85f9f281-4614-43c0-a0fd-3809ccff54bd" alt="닉네임변경페이지"/>
    </tr>
    <tr>
-     <td align="center">결제비밀번호변경페이지</td>
-     <td align="center">결제비밀번호확인페이지</td>
-     <td align="center">결제비밀번호변경완료페이지</td>
-     <td align="center">닉네임변경페이지</td>
+     <td align="center">결제비밀번호변경</td>
+     <td align="center">결제비밀번호확인</td>
+     <td align="center">결제비밀번호변경완료</td>
+     <td align="center">닉네임변경</td>
    </tr>
  </table>
  <table>
@@ -169,8 +169,8 @@
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/f11a9db1-0f8f-4e99-b070-96fdeda45330" alt="금액교환하기페이지"/>
    </tr>
    <tr>
-     <td align="center">결제페이지</td>
-     <td align="center">금액교환하기페이지</td>
+     <td align="center">결제</td>
+     <td align="center">금액교환하기</td>
    </tr>
  </table>
 
