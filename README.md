@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=venom&color=0:feac5e,50:c779d0,100:4bc0c8&fontColor=7d12ff&height=300&section=header&text=티끌%20모의%20태산&fontSize=90) 
+![image](https://github.com/1-screeningHumanity/.github/assets/160799011/1ca1822e-3f1b-4e9e-8207-a5d394a70647)![header](https://capsule-render.vercel.app/api?type=venom&color=0:feac5e,50:c779d0,100:4bc0c8&fontColor=7d12ff&height=300&section=header&text=티끌%20모의%20태산&fontSize=90) 
 
 
 # 프로젝트 소개 📢
@@ -179,6 +179,20 @@
 ![image](https://github.com/1-screeningHumanity/.github/assets/141290308/9d89ada8-3158-4485-a72d-a7fcb1d2964f)
 
  
- # 팀원소개
+ # 👥팀원 소개
+ ---
+|    <img src="https://avatars.githubusercontent.com/u/141290308?v=4" width="40" />    |   <img src="https://avatars.githubusercontent.com/u/68285285?v=4" width="40" />   |
+| :----: | :----: |
+| 오승원 | 이지민 |
+| FrontEnd| FrontEnd|
+|sw4689@gmail.com|l68774842@gmail.com|
+|[@sw-devr](https://github.com/sw-devr)| [@jmlee119](https://github.com/jmlee119) |
+| (후기를 입력하세용) | (후기를 입력하세용) |
 
- 
+|    <img src="https://avatars.githubusercontent.com/u/160799011?v=4" width="40" />    |   <img src="https://avatars.githubusercontent.com/u/124120054?v=4" width="40" />   |   <img src="https://avatars.githubusercontent.com/u/102753047?v=4" width="40" />   |
+| :----: | :----: | :----: |
+| 강성욱 | 김도형 | 박태훈 |
+| BackEnd| BackEnd| BackEnd|
+|ksu9801@gmail.com|dohyeong7026@gmail.com|pthomj13@gmail.com|
+|[@KangBaekGwa](https://github.com/KangBaekGwa)| [@ddohyeong](https://github.com/ddohyeong) | [@hoontaepark](https://github.com/hoontaepark) |
+| (후기를 입력하세용) | (후기를 입력하세용) | (후기를 입력하세용) |
