@@ -181,4 +181,9 @@
  
  # 팀원소개
 
+|   **Name**   |오승원|이지민|강성욱|김도형|박태훈|
+| :----------: | :-----: | :-----: | :-----: | :-----: | :-----:|
+| **Profile**  |![오승원](https://github.com/1-screeningHumanity/.github/assets/141290308/e74e7fe2-7a71-4006-a455-805ac1f5cb73)|<img src="https://github.com/1-screeningHumanity/.github/assets/141290308/b8d40b5f-e5c7-43de-9ad0-fe4ab433567f" width="100" height="100"/>|![강성욱](https://github.com/1-screeningHumanity/.github/assets/141290308/d3e45b06-a329-46fe-b7b4-4fca70d2fb2a)|![김도형](https://github.com/1-screeningHumanity/.github/assets/141290308/d8b495ce-03c0-465f-83ac-3499026c4f68)|![박태훈](https://github.com/1-screeningHumanity/.github/assets/141290308/3805ee51-d291-49fa-8859-75cda82e8fa2)|
+| **Position** |Leader <br/> Frontend|Frontend|BackEnd|BackEnd|BackEnd|
+|   **Git**    |[sw-devr](https://github.com/sw-devr)|[jmlee119](https://github.com/jmlee119)|[KangBaekGwa](https://github.com/KangBaekGwa)|[ddohyeong](https://github.com/ddohyeong)|[hoontaepark](https://github.com/hoontaepark)|
  
