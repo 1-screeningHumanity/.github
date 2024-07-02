@@ -1,25 +1,42 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6&animation=fadeIn&fontColor=E3DAFF&height=300&section=header&text=티끌%20모의%20태산&fontSize=90) 
 
 
-# 프로젝트 소개 📢
+# 목차 📚
+<br/>
 
+  [1. 프로젝트 소개](#프로젝트 소개)<br/>
+ ### [2. 화면소개](#화면소개)<br/>
+ ### [3. 아키텍처](#아키텍처)<br/>
+ ### [4. 후기](#후기)<br/><br/>
+
+
+ 프로젝트 개요
+팀원 구성
+시스템 아키텍처
+기술 스택
+협업
+ERD
+역할 분담
+구현 기능
+트러블 슈팅
+개선 목표
+프로젝트 후기
+
+# 프로젝트 소개 📢
   ### <img src="https://github.com/1-screeningHumanity/.github/assets/141290308/fbea4842-c339-4b99-977a-bee4742e09ba" alt="tmt" width="25" height="25"> 티끌 모의 태산 
   - 서비스 URL : https://screeninghumanity.store/
   <br/>
-  
   ### 🗓️ 프로젝트 기간  
   - 2024.04.18 ~ 2024.07.04
   - 총 **`2024.02.21~2024.04.14`**
 
   <br />
-
  ### 📌 서비스 소개 
   > **티끌모의태산은?** 
   - **시니어를 대상**으로 한 **주식모의투자서비스** 티끌모의태산 입니다.
   - 주식을 입문하는 시니어분들의 시행착오를 줄여주고자 `간편한UI`, `음성인식`, `매매 가이드라인` 기능을 제공하였습니다.
   - `랭킹`, `퀴즈` 등을 추가하여 사용자의 즐거움 요소를 추가하였습니다. 
   - 실전투자에 입문하기 전 모의투자를 통해 **주식투자의 길잡이**가 되어드립니다.
-
   <br/>
   
   
@@ -43,23 +60,17 @@
 </table>
 <br/>
 
-# 목차 📚
-<br/>
-
- ### [1. 핵심기능](#핵심기능)<br/>
- ### [2. 화면소개](#화면소개)<br/>
- ### [3. 아키텍처](#아키텍처)<br/>
- ### [4. 후기](#후기)<br/><br/>
-
+# 기술 스택 
+![image](https://github.com/1-screeningHumanity/.github/assets/141290308/9d89ada8-3158-4485-a72d-a7fcb1d2964f)
  
- # 핵심기능
 
+# 핵심기능
 ### 1.  회원가입 / 로그인
 - 시니어층을 대상하기 떄문에 전화번호, 이름 , 비밀번호로 가입 가능합니다
 - 닉네임의 경우 랜덤으로 설정 가능하게 헀습니다.
 
-  <img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/e53ae3ce-a022-44e8-b5ff-5538a44335bf" alt="쉬운 간편 로그인 기능" width="300" />
 
+<img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/e53ae3ce-a022-44e8-b5ff-5538a44335bf" alt="쉬운 간편 로그인 기능" width="300" />
 <hr/>
 
 ### 2. 주식 / 회원 검색 
@@ -83,6 +94,7 @@
 - FCM을 이용한 알림 토큰 발생 및 전송 
 - 카프카를 통한 예약 매수 체결과 연동된 기기 알림 서비스
 
+<img src="https://github.com/1-screeningHumanity/.github/assets/68285285/36de80e4-93b5-445f-9abb-a86db9ced125" alt="쉬운 간편 로그인 기능" width="300" />
 <hr/>
 
 
@@ -96,6 +108,14 @@
 - 스프링 배치를 이용하여 데이터를 집계
 - 자산, 수익률 (일, 주, 월) 랭킹을 확인 가능 
 <img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/d39b4a72-f67f-4fb4-9eaa-039ca2c4260c" alt="랭킹" width="300" />
+
+### 7. 알림 서비스
+- 클라이언트 측에서 fcm 토큰 발급
+- 외부 서비스로부터 카프카 메시지로 받아 알림 내용을 Firebase Cloud Messaging을 이용하여 기기에 알림을 전송한다
+
+<img src="https://github.com/1-screeningHumanity/.github/assets/68285285/72190b62-3562-4231-aef8-e60da8428865" alt="쉬운 간편 로그인 기능" width="300" />
+
+
 
 
 
