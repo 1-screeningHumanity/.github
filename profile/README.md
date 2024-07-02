@@ -232,7 +232,7 @@
 # 팀원 소개
 <table border="1" style="border-collapse: collapse;">
   <tr>
-    <td style="width: 300px; height: 100px;"><a href="https://github.com/sw-devr"><img src="https://avatars.githubusercontent.com/u/141290308?v=4" width="40" />  </td>
+    <td style="width: 300px; height: 100px;"><a href="https://github.com/sw-devr"><img src="https://avatars.githubusercontent.com/u/141290308?v=4" width="80" />  </td>
     <td style="width: 300px; height: 100px;">2달이 조금 넘는 기간동안 주제선정부터 기획, 설계, 개발까지 진행을 하였는데 프론트엔드로써도 신기술을 접해보면서 기술적 성장을 할 수 있었고, </br> 개인적으로도 추후 취업을 했을때 잘 적응 할 수 있을 것 같은 힘을 키울수 있었던 것 같습니다.</br>좋은 경험이었고 앞으로도 기억에 남을 것 같습니다. </td>
   </tr>
   <tr>
@@ -241,7 +241,7 @@
   </tr>
      
   <tr>
-    <td style="width: 300; height: 100px;"><a href="https://github.com/jmlee119"><img src="https://avatars.githubusercontent.com/u/68285285?v=4" width="40" />  </td>
+    <td style="width: 300; height: 100px;"><a href="https://github.com/jmlee119"><img src="https://avatars.githubusercontent.com/u/68285285?v=4" width="80" />  </td>
     <td style="width: 300; height: 100px;">주식 프로젝트를 해보고 싶어서 팀원들에게 하자고 먼저 제안을 했고</br> 실시간 가격을 출력하는 과정에서 sse를 적용해보고 채팅이라는 기능을 해보며 많이 성장했습니다.</br> 프로젝트를 하면서 next js 에 대해 적응을 하고 랜더링 속도를 줄이는 방법등을 고민을 많이 했고, 정규장 시간이 아니면 매수 매도가 안되게끔 하며  다양한 기술을 배운것 같습니다. </td>
   </tr>
   <tr>
@@ -250,7 +250,7 @@
   </tr>
 
    <tr>
-    <td style="width: 300px; height: 100px;"><a href="https://github.com/KangBaekGwa"><img src="https://avatars.githubusercontent.com/u/160799011?v=4" width="40" />  </td>
+    <td style="width: 300px; height: 100px;"><a href="https://github.com/KangBaekGwa"><img src="https://avatars.githubusercontent.com/u/160799011?v=4" width="80" />  </td>
     <td style="width: 300px; height: 100px;">먼저, 다양한 기술스택과 경험을 쌓을 수 있는 좋은 주제를 선정하게 되어서 정말 다행이었다 라는 생각이 듭니다.</br> 추후 더 개발적으로 개선할 사항이 많이 생겼다는 점에서 100% 만족하는 팀 프로젝트로 기억에 오래 남을 것 같습니다.</td>
   </tr>
   <tr>
@@ -259,7 +259,7 @@
   </tr>
 
    <tr>
-    <td style="width: 300px; height: 100px;"><a href="https://github.com/ddohyeong"><img src="https://avatars.githubusercontent.com/u/124120054?v=4" width="40" />  </td>
+    <td style="width: 300px; height: 100px;"><a href="https://github.com/ddohyeong"><img src="https://avatars.githubusercontent.com/u/124120054?v=4" width="80" />  </td>
     <td style="width: 300px; height: 100px;">실시간으로 동시에 많은 데이터를 다루기 위해서 비동기를 지원하는 WebFlux를 사용했다. 리액티브 프로그래밍을 하면서 비동기로 동작하려면 어떤 로직이 좋을 지 많이  생각하게 해준 프로젝트였고, MSA, 헥사고날 아키텍처를 알고 적용해보며 이전 배웠던 DDD의 도메인과 서비스 부분을 더 명확히 이해할 수 있었다
 또한 DB의 Read, Write의 분리 개념도 알게 되었고 Redis Replica CQRS 비교 성능 테스트도 진행해보았다. 
 2달간 많이 배우고 성장했다.</td>
@@ -270,7 +270,7 @@
   </tr>
 
    <tr>
-    <td style="width: 300px; height: 100px;"><a href="https://github.com/hoontaepark"><img src="https://avatars.githubusercontent.com/u/102753047?v=4" width="40" />  </td>
+    <td style="width: 300px; height: 100px;"><a href="https://github.com/hoontaepark"><img src="https://avatars.githubusercontent.com/u/102753047?v=4" width="80" />  </td>
     <td style="width: 300px; height: 100px;">2차 프로젝트를 통해, MSA, EDA 기술을 도입하면서 대용량 트래픽에 대응 할수 있는 방법을 알게되는 유익한 시간이였습니다. 성능개선을 한번더 생각해 볼수 있었고, 헥사고날 아키텍처를 다루면서 아키텍처에 대한 식견을 높일수 있어서 좋았습니다. </br>2차 프로젝트를 통해 한번더 스킬업을 한 나 자신을 보면서 뿌듯한 감정을 느꼈습니다.  마지막으로 2달동안 정말 고생많이해주신 팀원 분들께 감사의 인사를 드립니다.</td>
   </tr>
   <tr>
