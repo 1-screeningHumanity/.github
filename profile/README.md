@@ -45,9 +45,9 @@
          
    </tr>
    <tr>
-     <td colspan="2" align="center">메인</td>
-     <td align="center">Loading</td>
-     <td align="center">not-found</td>
+     <td colspan="2" align="center">메인페이지</td>
+     <td align="center">로딩페이지</td>
+     <td align="center">not-found 페이지</td>
    </tr>
  </table>
  <table>
@@ -169,7 +169,7 @@
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/f11a9db1-0f8f-4e99-b070-96fdeda45330" alt="금액교환하기페이지"/>
    </tr>
    <tr>
-     <td align="center">결제</td>
+     <td align="center">결제페이지</td>
      <td align="center">금액교환하기</td>
    </tr>
  </table>
@@ -179,11 +179,20 @@
 ![image](https://github.com/1-screeningHumanity/.github/assets/141290308/9d89ada8-3158-4485-a72d-a7fcb1d2964f)
 
  
- # 팀원소개
+ # 👥팀원 소개
+ ---
+|    <img src="https://avatars.githubusercontent.com/u/141290308?v=4" width="40" />    |   <img src="https://avatars.githubusercontent.com/u/68285285?v=4" width="40" />   |
+| :----: | :----: |
+| 오승원 | 이지민 |
+| FrontEnd| FrontEnd|
+|sw4689@gmail.com|lee@jiming.kr|
+|[@sw-devr](https://github.com/sw-devr)| [@jmlee119](https://github.com/jmlee119) |
+| (후기를 입력하세용) | (후기를 입력하세용) |
 
-|   **Name**   |오승원|이지민|강성욱|김도형|박태훈|
-| :----------: | :-----: | :-----: | :-----: | :-----: | :-----:|
-| **Profile**  |![오승원](https://github.com/1-screeningHumanity/.github/assets/141290308/e74e7fe2-7a71-4006-a455-805ac1f5cb73)|<img src="https://github.com/1-screeningHumanity/.github/assets/141290308/b8d40b5f-e5c7-43de-9ad0-fe4ab433567f" width="100" height="100"/>|![강성욱](https://github.com/1-screeningHumanity/.github/assets/141290308/d3e45b06-a329-46fe-b7b4-4fca70d2fb2a)|![김도형](https://github.com/1-screeningHumanity/.github/assets/141290308/d8b495ce-03c0-465f-83ac-3499026c4f68)|![박태훈](https://github.com/1-screeningHumanity/.github/assets/141290308/3805ee51-d291-49fa-8859-75cda82e8fa2)|
-| **Position** |Leader <br/> Frontend|Frontend|BackEnd|BackEnd|BackEnd|
-|   **Git**    |[sw-devr](https://github.com/sw-devr)|[jmlee119](https://github.com/jmlee119)|[KangBaekGwa](https://github.com/KangBaekGwa)|[ddohyeong](https://github.com/ddohyeong)|[hoontaepark](https://github.com/hoontaepark)|
- 
+|    <img src="https://avatars.githubusercontent.com/u/160799011?v=4" width="40" />    |   <img src="https://avatars.githubusercontent.com/u/124120054?v=4" width="40" />   |   <img src="https://avatars.githubusercontent.com/u/102753047?v=4" width="40" />   |
+| :----: | :----: | :----: |
+| 강성욱 | 김도형 | 박태훈 |
+| BackEnd| BackEnd| BackEnd|
+|ksu9801@gmail.com|dohyeong7026@gmail.com|pthomj13@gmail.com|
+|[@KangBaekGwa](https://github.com/KangBaekGwa)| [@ddohyeong](https://github.com/ddohyeong) | [@hoontaepark](https://github.com/hoontaepark) |
+| (후기를 입력하세용) | (후기를 입력하세용) | (후기를 입력하세용) |
