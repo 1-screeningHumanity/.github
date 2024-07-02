@@ -250,7 +250,7 @@
   </tr>
 
    <tr>
-    <td style="width: 300px; height: 100px;"><a href="https://github.com/KangBaekGwa"><img src="https://avatars.githubusercontent.com/u/68285285?v=4" width="40" />  </td>
+    <td style="width: 300px; height: 100px;"><a href="https://github.com/KangBaekGwa"><img src="https://avatars.githubusercontent.com/u/160799011?v=4" width="40" />  </td>
     <td style="width: 300px; height: 100px;">먼저, 다양한 기술스택과 경험을 쌓을 수 있는 좋은 주제를 선정하게 되어서 정말 다행이었다 라는 생각이 듭니다.</br> 추후 더 개발적으로 개선할 사항이 많이 생겼다는 점에서 100% 만족하는 팀 프로젝트로 기억에 오래 남을 것 같습니다.</td>
   </tr>
   <tr>
@@ -270,7 +270,7 @@
   </tr>
 
    <tr>
-    <td style="width: 300px; height: 100px;"><a href="https://github.com/hoontaepark"><img src="https://avatars.githubusercontent.com/u/124120054?v=4" width="40" />  </td>
+    <td style="width: 300px; height: 100px;"><a href="https://github.com/hoontaepark"><img src="https://avatars.githubusercontent.com/u/102753047?v=4" width="40" />  </td>
     <td style="width: 300px; height: 100px;">2차 프로젝트를 통해, MSA, EDA 기술을 도입하면서 대용량 트래픽에 대응 할수 있는 방법을 알게되는 유익한 시간이였습니다. 성능개선을 한번더 생각해 볼수 있었고, 헥사고날 아키텍처를 다루면서 아키텍처에 대한 식견을 높일수 있어서 좋았습니다. </br>2차 프로젝트를 통해 한번더 스킬업을 한 나 자신을 보면서 뿌듯한 감정을 느꼈습니다.  마지막으로 2달동안 정말 고생많이해주신 팀원 분들께 감사의 인사를 드립니다.</td>
   </tr>
   <tr>
