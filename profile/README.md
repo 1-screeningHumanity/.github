@@ -4,22 +4,27 @@
 # 프로젝트 소개 📢
 <br/>
 
+ 
   ### <img src="https://github.com/1-screeningHumanity/.github/assets/141290308/fbea4842-c339-4b99-977a-bee4742e09ba" alt="tmt" width="25" height="25"> 티끌 모의 태산 
   - 서비스 URL : https://screeninghumanity.store/
   <br/>
   
   ### 🗓️ 프로젝트 기간  
   - 2024.04.18 ~ 2024.07.04
-  - 총 **12주**
+  - 총 **`2024.02.21~2024.04.14`**
+
+  <br />
+
+ ### 📌 서비스 소개 
+  > **티끌모의태산은?** 
+  - **시니어를 대상**으로 한 **주식모의투자서비스** 티끌모의태산 입니다.
+  - 주식을 입문하는 시니어분들의 시행착오를 줄여주고자 `간편한UI`, `음성인식`, `매매 가이드라인` 기능을 제공하였습니다.
+  - `랭킹`, `퀴즈` 등을 추가하여 사용자의 즐거움 요소를 추가하였습니다. 
+  - 실전투자에 입문하기 전 모의투자를 통해 **주식투자의 길잡이**가 되어드립니다.
+
   <br/>
   
   
-  ### 📌 서비스 소개 
-  
-  > **티끌모의태산은?** 
-  - **시니어를 대상**으로 한 **주식모의투자서비스** 티끌모의태산 입니다.
-  - 주식을 입문하는 시니어분들의 시행착오를 줄여주고자 **간단한UI**와 **음성인식기능**과 **구독** 및 **랭킹**기능을 더하여 시니어분들의 편의와 즐거움을 위해 기획한 모의투자서비스입니다.
-  - 실전투자에 입문하기 전 모의투자를 통해 **주식투자의 길잡이**가 되어드립니다.
 
 <br/>
 
@@ -29,45 +34,56 @@
  ### [1. 기능](#기능)<br/>
  ### [2. 화면소개](#화면소개)<br/>
  ### [3. 기술스택](#기술스택)<br/>
- ### [4. 팀원소개](#👥팀원소개)<br/><br/>
+ ### [4. 팀원소개](#팀원소개)<br/><br/>
 
  
  # 기능
 
-### 1. 쉽다, 간편하다.
-### 쉬운 간편 로그인 기능 탑재
+### 1.  회원가입 / 로그인
+- 시니어층을 대상하기 떄문에 전화번호, 이름 , 비밀번호로 가입 가능합니다
+- 닉네임의 경우 랜덤으로 설정 가능하게 헀습니다.
 
   <img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/e53ae3ce-a022-44e8-b5ff-5538a44335bf" alt="쉬운 간편 로그인 기능" width="300" />
 
 <hr/>
 
-### 2. 강력하다, 빠르다.
-### 빠른응답, 필터링을 활용한 유연한 검색 엔진 <br/>
+### 2. 주식 / 회원 검색 
+- 시니어를 위한 음성인식 기능 추가
+- Elastic Stack 을 추가하여 빠른 응답, 필터링을 활용한 유연한 검색 엔진
+- 기존 MySql 쿼리를 이용한 query 461ms -> 57ms
 
 <img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/d9536625-7156-4a05-ac0b-3dfb8ce56ec9" alt="쉬운 간편 로그인 기능" width="300" />
 <hr/>
 
-### 3. 실시간, 차트, 종토방 볼래 ?
-### 즉각적인, SSE 통신을 통한 주식 및 채팅 데이터 제공 <br/>
+### 3. 실시간 차트, 종목 토론방 제공
+- 한국투자증권 API 를 사용하여 실시간 차트를 제공하여 실시간 가격을 제공
+- SSE 방식을 선택하여 실시간 데이터 수신 
+  
 
 <img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/54a4dde5-8980-404c-9965-454a98891cad" alt="쉬운 간편 로그인 기능" width="300" />
 <hr/>
 
-### 4. 자동 체결, 알림 발생
-### 카프카를 통한 예약 매수 체결과 연동된 기기 알림 서비스 <br/>
+### 4. 매매 체결, 알림 발생
+- 구매를 원하는 가격과 매매 가격이 같으면 체결
+- FCM을 이용한 알림 토큰 발생 및 전송 
+- 카프카를 통한 예약 매수 체결과 연동된 기기 알림 서비스
+
 <hr/>
 
 
-### 5. 퀴즈 맞혀봐
-### 어려운 주식, 퀴즈로 쉽게 배워봐. <br/>
+### 5. 퀴즈 제공
+- 주식 입문자를 위해 퀴즈를 제공하여 지식을 늘리고 즐거움 요소를 더 함
 
 <img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/25a2d7d8-eec1-4a78-8a33-18ed66176c56" alt="퀴즈" width="300" />
 <hr/>
 
-### 6. 주식왕? 야, 너도 할 수 있어.
-### 스프링배치로 집계된 고수들의 명단을 빠르고 쉽게 확인. <br/>
+### 6. 랭킹 서비스 제공
+- 스프링 배치를 이용하여 데이터를 집계
+- 자산, 수익률 (일, 주, 월) 랭킹을 확인 가능 
 <img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/d39b4a72-f67f-4fb4-9eaa-039ca2c4260c" alt="랭킹" width="300" />
- 
+
+
+
  # 화면소개
  <table>
    <tr>
@@ -99,9 +115,11 @@
  <table>
    <tr>
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/e37ae001-07eb-46ea-8002-f4c3a56104aa" alt="카테고리1" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/26fc6bd5-bc72-4e96-84df-d28ece6ab156" alt="카테고리2"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/bdeddfad-f79d-401c-9bfa-b2e815902d6a" alt="카테고리3"/>
+     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/68285285/8d34bb48-9959-4afb-a351-c7b88f842cbd" alt="카테고리2"/>
+     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/68285285/5949d063-e680-4210-8ee9-f285db27adb3" alt="카테고리3"/>
    </tr>
+   
+
    <tr>
      <td colspan="3" align="center">카테고리</td>
    </tr>
@@ -121,7 +139,7 @@
  </table>
  <table>
    <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/2af537bb-9a8c-49ea-8893-0754e2dd9065" alt="카테고리1" />
+     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/68285285/47187460-5de6-473e-8a77-ed482f4343c2" alt="카테고리1" />
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/712bca12-004e-4bb2-84ef-b0a58ef0ec33" alt="카테고리2"/>
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/fab3a4d5-cc78-490d-a43a-1d27c6cdf86c" alt="카테고리3"/>
      <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/0708d619-b6cf-4319-af79-fd032c43cbe7" alt="카테고리3"/>
@@ -211,21 +229,16 @@
  # 기술스택
 ![image](https://github.com/1-screeningHumanity/.github/assets/141290308/9d89ada8-3158-4485-a72d-a7fcb1d2964f)
 
- 
- # 팀원소개
- ---
-|    <img src="https://avatars.githubusercontent.com/u/141290308?v=4" width="40" />    |   <img src="https://avatars.githubusercontent.com/u/68285285?v=4" width="40" />   |
-| :----: | :----: |
-| 오승원 | 이지민 |
-| FrontEnd| FrontEnd|
-|sw4689@gmail.com|lee@jiming.kr|
-|[@sw-devr](https://github.com/sw-devr)| [@jmlee119](https://github.com/jmlee119) |
-| 2달이 조금 넘는 기간동안 주제선정부터 기획, 설계, 개발까지 진행을 하였는데 프론트엔드로써도 신기술을 접해보면서 기술적 성장을 할 수 있었고, </br> 개인적으로도 추후 취업을 했을때 잘 적응 할 수 있을 것 같은 힘을 키울수 있었던 것 같습니다.</br>좋은 경험이었고 앞으로도 기억에 남을 것 같습니다.  | 주식 프로젝트를 해보고 싶어서 팀원들에게 하자고 먼저 제안을 했고</br> 실시간 가격을 출력하는 과정에서 sse를 적용해보고 채팅이라는 기능을 해보며 많이 성장했습니다.</br> 프로젝트를 하면서 next js 에 대해 적응을 하고 랜더링 속도를 줄이는 방법등을 고민을 많이 했고,</br> 정규장 시간이 아니면 매수 매도가 안되게끔 하며  다양한 기술을 배운것 같습니다. |
+# 팀원 소개
+ <table>
+<tbody>
+<tr>
+<td align="center"><a href="https://github.com/jmlee119"><img src="https://github.com/hyobin0726/hyobin0726/assets/140376727/8376e174-415d-40c0-abcc-e9cd8d71cccd"width="100px;" alt=""/><br /><sub><b>FE | 팀장 : 이지민</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/hyobin0726"><img src="https://github.com/hyobin0726/hyobin0726/assets/140376727/65855eee-eb9b-42c2-bda3-615c59cb6450"width="100px;" alt=""/><br /><sub><b>FE | 팀원 : 박효빈</b></sub></a><br /></td>
+<tr/>
+<td align="center"><sub>회원가입, 로그인, 마이페이지, 장바구니, 주문, 배송지</sub></td>
+<td align="center"><sub>카테고리, 홈, 상품리스트, 상품상세, 리뷰, 최근 본 상품</sub></td>
+</tr>
+</tbody>
+</table>
 
-|    <img src="https://avatars.githubusercontent.com/u/160799011?v=4" width="40" />    |   <img src="https://avatars.githubusercontent.com/u/124120054?v=4" width="40" />   |   <img src="https://avatars.githubusercontent.com/u/102753047?v=4" width="40" />   |
-| :----: | :----: | :----: |
-| 강성욱 | 김도형 | 박태훈 |
-| BackEnd| BackEnd| BackEnd|
-|ksu9801@gmail.com|dohyeong7026@gmail.com|pthomj13@gmail.com|
-|[@KangBaekGwa](https://github.com/KangBaekGwa)| [@ddohyeong](https://github.com/ddohyeong) | [@hoontaepark](https://github.com/hoontaepark) |
-| 먼저, 다양한 기술스택과 경험을 쌓을 수 있는 좋은 주제를 선정하게 되어서 정말 다행이었다 라는 생각이 듭니다.</br> 추후 더 개발적으로 개선할 사항이 많이 생겼다는 점에서 100% 만족하는 팀 프로젝트로 기억에 오래 남을 것 같습니다. | 2차 프로젝트를 진행하면서 이전에 경험해보지 못한 kafka, webflux 등 새로운 기술들을 접해볼 수 있었고, </br> 팀원들과 함께 하나의 서비스를 만들어 가며 크게 작게 부족한 부분을 많이 느꼈고, </br> 보완해가면서 많이 성장을 할 수 있었던 것 같습니다. </br> 뜻깊은 프로젝트였고 좋은 경험을 한 것 같아서 좋았습니다. | 2차 프로젝트를 통해, MSA, EDA 기술을 도입하면서 대용량 트래픽에 대응 할수 있는 방법을 알게되는 유익한 시간이였습니다. 성능개선을 한번더 생각해 볼수 있었고, 헥사고날 아키텍처를 다루면서 아키텍처에 대한 식견을 높일수 있어서 좋았습니다. </br>2차 프로젝트를 통해 한번더 스킬업을 한 나 자신을 보면서 뿌듯한 감정을 느꼈습니다.  마지막으로 2달동안 정말 고생많이해주신 팀원 분들께 감사의 인사를 드립니다. |
