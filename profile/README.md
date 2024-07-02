@@ -57,12 +57,16 @@
 ### 카프카를 통한 예약 매수 체결과 연동된 기기 알림 서비스 <br/>
 <hr/>
 
+
 ### 5. 퀴즈 맞혀봐
 ### 어려운 주식, 퀴즈로 쉽게 배워봐. <br/>
+
+<img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/25a2d7d8-eec1-4a78-8a33-18ed66176c56" alt="퀴즈" width="300" />
 <hr/>
 
 ### 6. 주식왕? 야, 너도 할 수 있어.
 ### 스프링배치로 집계된 고수들의 명단을 빠르고 쉽게 확인. <br/>
+<img src="https://github.com/1-screeningHumanity/TMT-FE/assets/141290308/d39b4a72-f67f-4fb4-9eaa-039ca2c4260c" alt="랭킹" width="300" />
  
  # 화면소개
  <table>
