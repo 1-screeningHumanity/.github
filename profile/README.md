@@ -25,7 +25,24 @@
   <br/>
   
   
-
+## 팀소개 
+<table>
+<tbody>
+<tr>
+<td align="center"><a href="https://github.com/sw-devr"><img src="https://avatars.githubusercontent.com/u/141290308?v=4" width="100px;" alt=""/><br /><sub><b>오승원 (FE,팀장)</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/jmlee119"><img src="https://avatars.githubusercontent.com/u/68285285?v=4"width="100px;" alt=""/><br /><sub><b>이지민 (FE)</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/KangBaekGwa"><img src="https://avatars.githubusercontent.com/u/160799011?v=4" width="100px;" alt=""/><br /><sub><b>강성욱 (BE)</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/ddohyeong"><img src="https://avatars.githubusercontent.com/u/124120054?v=4" width="100px; alt=""/><br /><sub><b>김도형 (BE)</b></sub></a><br /></td>
+<td align="center"><a href="https://github.com/hoontaepark"><img src="https://avatars.githubusercontent.com/u/102753047?v=4" width="100px;" alt=""/><br /><sub><b>박태훈 (BE)</b></sub></a><br /></td>
+<tr/>
+<td align="center"><sub>회원가입, 로그인, 마이페이지, 장바구니, 주문, 배송지</sub></td>
+<td align="center"><sub>카테고리, 홈, 상품리스트, 상품상세, 리뷰, 최근 본 상품</sub></td>
+<td align="center"><sub>CI/CD구축, 상품 옵션, 상품 주문, 카카오공유하기</sub></td>
+<td align="center"><sub>상품, 카테고리, 리뷰, 최근 본 상품, DB</sub></td>
+<td align="center"><sub>error와 security 설정, 회원, 배송지, 장바구니, 결제</sub></td>
+</tr>
+</tbody>
+</table>
 <br/>
 
 # 목차 📚
