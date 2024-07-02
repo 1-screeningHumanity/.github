@@ -107,11 +107,13 @@
 
 <img src="https://github.com/1-screeningHumanity/.github/assets/68285285/72190b62-3562-4231-aef8-e60da8428865" alt="쉬운 간편 로그인 기능" width="300" />
 
+
 ### 8. 마이페이지 및 포트 폴리오 
 - Redis 에 저장되어있는 실시간 주식 데이터를 이용해 회원의 보유 주식 평가금액을 계산
 - 가장 최근 주가를 반영하기 때문에 실시간으로 회원의 주식금액을 반영
 - 주식 : 보유 중인 주식 , 매수/매도 내역 조회, 구독자 조회, 즐겨찾기 조회
 - 회원 : 비밀번호 변경, 닉네임 변경, 결제하기, 충전하기, 충전내역 조회
+<img src="https://github.com/1-screeningHumanity/.github/assets/68285285/b5b73237-026f-4b07-9835-0e2d4dbf867d" alt="쉬운 간편 로그인 기능" width="300" />
 
 
 
