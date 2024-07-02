@@ -1,26 +1,16 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6&animation=fadeIn&fontColor=E3DAFF&height=300&section=header&text=티끌%20모의%20태산&fontSize=90) 
 
-
 # 목차 📚
-<br/>
+### 1. [프로젝트 개요](#1-프로젝트-개요)
+### 2. [팀원 구성](#2-팀원-구성)
+### 3. [팀소개](#3-팀소개)
+### 4. [기술 스택](#4-기술-스택)
+### 5. [핵심 기능](#5-핵심-기능)
+### 6. [ERD](#6-ERD)
+### 7. [아키텍처](#7-아키텍처)
+### 8. [구현 기능](#8-구현-기능)
+### 9. [후기](#9-후기)
 
-  [1. 프로젝트 소개](#프로젝트 소개)<br/>
- ### [2. 화면소개](#화면소개)<br/>
- ### [3. 아키텍처](#아키텍처)<br/>
- ### [4. 후기](#후기)<br/><br/>
-
-
- 프로젝트 개요
-팀원 구성
-시스템 아키텍처
-기술 스택
-협업
-ERD
-역할 분담
-구현 기능
-트러블 슈팅
-개선 목표
-프로젝트 후기
 
 # 프로젝트 소개 📢
   ### <img src="https://github.com/1-screeningHumanity/.github/assets/141290308/fbea4842-c339-4b99-977a-bee4742e09ba" alt="tmt" width="25" height="25"> 티끌 모의 태산 
@@ -64,7 +54,7 @@ ERD
 ![image](https://github.com/1-screeningHumanity/.github/assets/141290308/9d89ada8-3158-4485-a72d-a7fcb1d2964f)
  
 
-# 핵심기능
+# 핵심 기능
 ### 1.  회원가입 / 로그인
 - 시니어층을 대상하기 떄문에 전화번호, 이름 , 비밀번호로 가입 가능합니다
 - 닉네임의 경우 랜덤으로 설정 가능하게 헀습니다.
@@ -115,156 +105,23 @@ ERD
 
 <img src="https://github.com/1-screeningHumanity/.github/assets/68285285/72190b62-3562-4231-aef8-e60da8428865" alt="쉬운 간편 로그인 기능" width="300" />
 
+### 8. 마이페이지 및 포트 폴리오 
+- Redis 에 저장되어있는 실시간 주식 데이터를 이용해 회원의 보유 주식 평가금액을 계산
+- 가장 최근 주가를 반영하기 때문에 실시간으로 회원의 주식금액을 반영
+- 주식 : 보유 중인 주식 , 매수/매도 내역 조회, 구독자 조회, 즐겨찾기 조회
+- 회원 : 비밀번호 변경, 닉네임 변경, 결제하기, 충전하기, 충전내역 조회
 
 
 
+# ERD 
+![KakaoTalk_Photo_2024-07-02-17-48-40](https://github.com/1-screeningHumanity/.github/assets/68285285/580491bc-0e32-4159-a3d1-626951e4f5a3)
 
- # 화면소개
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/06152507-a414-418f-a219-7f48a781dcbe" alt="메인페이지1" />
-       <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/6fbd4b02-4851-4558-9fc1-6a8e3a67107e" alt="메인페이지2"/>
-       <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/b2ae64a8-8d83-4b9a-a5da-9eb19f7260b6" alt="로딩페이지"/>
-       <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/a49d4782-58bb-407c-a322-3c4782b905ac" alt="not-found페이지"/>
-         
-   </tr>
-   <tr>
-     <td colspan="2" align="center">메인페이지</td>
-     <td align="center">로딩페이지</td>
-     <td align="center">not-found 페이지</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/0368e2fa-251a-41a8-8060-aec234a8ecf5" alt="로그인페이지" />
-       <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/3a679fdb-0530-4b6d-9428-03138d5fe26a" alt="회원가입페이지"/>
-       <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/1095d1a6-e2b5-46b9-bc72-f109ac581837" alt="비밀번호 찾기 페이지"/>
-         
-   </tr>
-   <tr>
-     <td align="center">로그인</td>
-     <td align="center">회원가입</td>
-     <td align="center">비밀번호찾기</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/e37ae001-07eb-46ea-8002-f4c3a56104aa" alt="카테고리1" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/68285285/8d34bb48-9959-4afb-a351-c7b88f842cbd" alt="카테고리2"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/68285285/5949d063-e680-4210-8ee9-f285db27adb3" alt="카테고리3"/>
-   </tr>
-   
 
-   <tr>
-     <td colspan="3" align="center">카테고리</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/bb83764a-5438-4293-9a78-c4cb8dcdcfb9" alt="검색페이지1" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/939372d7-df9b-4f74-8aaf-37c14094d78b" alt="검색페이지2"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/79a09dd2-86b4-447c-b5a3-9d40a2ebfc4c" alt="알림페이지"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/267ba66a-3560-48c0-ac6e-c3359c16d4e1" alt="급등/급락주페이지"/>
-   </tr>
-   <tr>
-     <td colspan="2" align="center">검색</td>
-     <td align="center">알림</td>
-     <td align="center">급등/급락주</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/68285285/47187460-5de6-473e-8a77-ed482f4343c2" alt="카테고리1" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/712bca12-004e-4bb2-84ef-b0a58ef0ec33" alt="카테고리2"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/fab3a4d5-cc78-490d-a43a-1d27c6cdf86c" alt="카테고리3"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/0708d619-b6cf-4319-af79-fd032c43cbe7" alt="카테고리3"/>
-   </tr>
-   <tr>
-     <td colspan="4" align="center">종목 상세</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/a5305ce8-c10a-4c63-bc74-f2c2efe91b6d" alt="랭킹페이지1" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/a54467ad-ca62-4e40-98c6-ae2f093391ed" alt="랭킹페이지2"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/7e2ff372-972b-4e49-a84e-a34160913c3a" alt="마이페이지1"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/d0bc324a-3796-472e-bd0e-3e49293b93b2" alt="마이페이지2"/>
-   </tr>
-   <tr>
-     <td colspan="2" align="center">랭킹</td>
-     <td colspan="2" align="center">마이페이지</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/1a44f765-169f-4ed0-8771-298442b3074b" alt="타인프로필(구독전)" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/4b1319b9-06a2-4a3b-a381-c8cbefc825a2" alt="타인프로필(구독후)"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/0f88381b-a3a2-49dd-88a6-0f710791ce96" alt="구독하기페이지"/>
-   </tr>
-   <tr>
-     <td  align="center">타인프로필(구독전)</td>
-     <td  align="center">타인프로필(구독후)</td>
-     <td  align="center">구독하기</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/61f42629-4e19-46da-943d-414f1d85f9c7" alt="매수/매도목록페이지" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/e65b97b5-8477-4344-b07b-0c2f6c219b13" alt="예약매수/매도목록페이지"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/94597a0a-c295-48a8-816c-613c31cbc163" alt="구독자목록페이지"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/ac1ec3fc-d8fb-4731-92dc-771fdbd95db4" alt="나를구독한사람목록페이지"/>
-   </tr>
-   <tr>
-     <td align="center">매수/매도목록</td>
-     <td align="center">예약매수/매도목록</td>
-     <td align="center">구독자목록</td>
-     <td align="center">나를구독한사람목록</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/cef35b84-0e12-47cd-aa43-0ec27a4ff61e" alt="즐겨찾기목록페이지" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/d5eb5525-d6cf-4dbf-9f77-38fde4327bf5" alt="결제내역페이지"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/02997865-2c7c-45ae-ad96-c2b4c5a8cf09" alt="비밀번호변경페이지"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/c271c92f-b2b3-4adf-90fd-0aee16472203" alt="비밀번호변경완료페이지"/>
-   </tr>
-   <tr>
-     <td align="center">즐겨찾기목록</td>
-     <td align="center">결제내역</td>
-     <td align="center">비밀번호변경</td>
-     <td align="center">비밀번호변경완료</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/f17cf834-0f9e-482f-aeb0-d4f43305b857" alt="결제비밀번호변경페이지" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/6ac7973a-297c-4111-98b8-1961ddfd15ab" alt="결제비밀번호확인페이지"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/90653039-3ddf-4ff9-af8c-9868a278e4cb" alt="결제비밀번호변경완료페이지"/>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/85f9f281-4614-43c0-a0fd-3809ccff54bd" alt="닉네임변경페이지"/>
-   </tr>
-   <tr>
-     <td align="center">결제비밀번호변경</td>
-     <td align="center">결제비밀번호확인</td>
-     <td align="center">결제비밀번호변경완료</td>
-     <td align="center">닉네임변경</td>
-   </tr>
- </table>
- <table>
-   <tr>
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/3e647db1-6946-45c8-ad8a-34b5acd18278" alt="결제페이지" />
-     <td width="300" bgcolor=#FFFFFF><img src="https://github.com/1-screeningHumanity/.github/assets/141290308/f11a9db1-0f8f-4e99-b070-96fdeda45330" alt="금액교환하기페이지"/>
-   </tr>
-   <tr>
-     <td align="center">결제페이지</td>
-     <td align="center">금액교환하기</td>
-   </tr>
- </table>
 
- 
- # 아키텍처
+# 아키텍처
 ![다이어그램V2](https://github.com/1-screeningHumanity/.github/assets/68285285/1b9501ee-0d07-430b-9148-b8494e83d386)
 
-# 팀원 소개
+# 후기
 ### 🔥 오승원 
 2달이 조금 넘는 기간동안 주제선정부터 기획, 설계, 개발까지 진행을 하였는데 프론트엔드로써도 신기술을 접해보면서 기술적 성장을 할 수 있었고, 개인적으로도 추후 취업을 했을때 잘 적응 할 수 있을 것 같은 힘을 키울수 있었던 것 같습니다. 좋은 경험이었고 앞으로도 기억에 남을 것 같습니다. 
 ### 🍀 이지민 
