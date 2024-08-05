@@ -1,15 +1,14 @@
 ![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6&animation=fadeIn&fontColor=E3DAFF&height=300&section=header&text=티끌%20모의%20태산&fontSize=90) 
 
 # 목차 📚
-### 1. [프로젝트 개요](#1-프로젝트-개요)
+### 1. [프로젝트 소개](#프로젝트-소개)
 ### 2. [팀원 구성](#2-팀원-구성)
 ### 3. [팀소개](#3-팀소개)
 ### 4. [기술 스택](#4-기술-스택)
 ### 5. [핵심 기능](#5-핵심-기능)
 ### 6. [ERD](#6-ERD)
 ### 7. [아키텍처](#7-아키텍처)
-### 8. [구현 기능](#8-구현-기능)
-### 9. [후기](#후기)
+### 8. [후기](#후기)
 
 
 # 프로젝트 소개 📢
